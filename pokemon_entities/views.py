@@ -56,7 +56,6 @@ def show_pokemon(request, pokemon_id):
         "title_jp": pokemon.title_jp,
         "description": pokemon.description,
         "img_url": pokemon.image.url,
-
     }
     pokemon_attributes.update(entity)
 
